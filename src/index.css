@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bolder;
+}
+
+.header {
+	overflow: hidden;
+	background-color: rgb(241, 241, 241);
+	padding: 20px 10px;
+	border-bottom: 2px solid black;
+}
+
+.basket-icon {
+	color: black;
+	padding: 0px 20px;
+	cursor: pointer;
+}
+
+.basket-icon:hover {
+	color: rgb(93, 1, 179);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.content {
+	flex: 1;
+}
+
+.footer {
+	bottom: 0;
+	position: relative;
+	width: 100%;
+	background-color: rgb(241, 241, 241);
+	padding: 20px 0px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	border-top: 2px solid black;
+}
+
+.social {
+	cursor: pointer;
+	color: black;
+}
+
+.social:hover {
+	color: rgb(97, 12, 52);
+}
+
+.title {
+	text-align: center;
+	font-size: 300%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+@media only screen and (max-width: 700px) {
+	[class="title"] {
+		font-size: 200%;
+	}
+}
+
+.basket-badge {
+	display: flex;
+}
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.img {
+	max-height: 250px;
+}
+
+.product {
+	margin: 5px;
+	max-width: 250px;
+}
+
+.product:hover {
+	background-color: rgb(241, 241, 241);
+}
+
+.details {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	padding: 0px 5px;
+}
+
+/* prevents long product names (or high price tags!) from
+overflowing onto the next line */
+
+.name,
+.price {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: left;
+	text-overflow: ellipsis;
+}
+
+.price {
+	text-align: right;
+}
+
+button {
+	background-color: white;
+	font-weight: bolder;
+	font-family: "Montserrat", sans-serif;
+	font-size: 100%;
+	display: block;
+	width: 100%;
+	height: 40px;
+	border: 2px solid black;
+	padding: 0px;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+	transition: 0.4s;
+}
+
+.navBar {
+	overflow: hidden;
+	border-bottom: 2px solid black;
+	display: flex;
+
+	justify-content: center;
+}
+
+.nav-btn {
+	width: 80px;
+	margin: 5px 5px;
+}
