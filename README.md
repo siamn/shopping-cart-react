@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Shopping Cart Website in React
+
+This is a small project I created to improve my React and frontend skills.
+I have designed the website for both desktop and mobile devices.
+You can view the live website [here](https://siamn.github.io/shopping-cart-react).
+Let me know your thoughts and how I can improve!
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
