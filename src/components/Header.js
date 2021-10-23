@@ -10,7 +10,7 @@ const Header = ({ cart, onCartClick }) => {
 	return (
 		<div className="header">
 			<h1 className="title">
-				Shopping Cart
+				Siam's Store
 				<div className="basket-badge">
 					<FaShoppingBasket className="basket-icon" onClick={onCartClick} /> {total}
 				</div>
